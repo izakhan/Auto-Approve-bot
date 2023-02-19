@@ -75,7 +75,8 @@ async def op(_, m :Message):
                 ]
             )
             add_user(m.from_user.id)
-            await m.reply_photo("https://telegra.ph/file/3434217344bac7583aaf4.jpg", caption="**🦊 Hello {}!\nI'm an auto approve  Bot.Add me to your chat and promote me to .\n\n__Powerd By : @sarbudeen786**".format(m.from_user.mention, "https://t.me/sarbudeen786"), reply_markup=keyboard)
+            await m.reply_photo("https://telegra.ph/file/3434217344bac7583aaf4.jpg", caption="** Welcome To Auto Approve Bot, 
+Just make the bot admin in your channel**".format(m.from_user.mention, "https://t.me/sarbudeen786"), reply_markup=keyboard)
     
         elif m.chat.type == enums.ChatType.GROUP or enums.ChatType.SUPERGROUP:
             keyboar = InlineKeyboardMarkup(
@@ -93,7 +94,7 @@ async def op(_, m :Message):
     except UserNotParticipant:
         key = InlineKeyboardMarkup(
             [[
-                        InlineKeyboardButton("Join Main Channel ", url="https://t.me/+H6tgwzs43PxiN2U1")
+                        InlineKeyboardButton("Join Main Channel ", url="https://t.me/+YF2UE4b4fPU4YWM1")
                     ], 
                 [
                     InlineKeyboardButton("🍀 Check Again 🍀", "chk")
