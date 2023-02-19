@@ -40,6 +40,7 @@ async def approve(_, m : Message):
         img = random.choice(gif)
         await app.send_video(kk.id,img, "**Hello {}!\nWelcome To {}\n\n__Powerd By : @SdBotz__**".format(m.from_user.mention, m.chat.title))
         add_user(kk.id)
+        await app.reply_photo("https://telegra.ph/file/3434217344bac7583aaf4.jpg", caption="**🦊 Hello {}!\nI'm an auto approve  Bot.Add me to your chat and promote me to .\n\n__Powerd By : @sarbudeen786**".format(m.from_user.mention, "https://t.me/sarbudeen786"), reply_markup=keyboard)
     except errors.PeerIdInvalid as e:
         print("user isn't start bot(means group)")
     except Exception as err:
