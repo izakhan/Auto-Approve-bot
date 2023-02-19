@@ -41,10 +41,11 @@ async def approve(_, m : Message):
         keyboard = InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("𝗡𝗲𝘄 𝗖𝗶𝗻𝗲𝗺𝗮𝗦 ~ 𝗨𝗻𝗹𝗶𝗺𝗶𝘁𝗲𝗱🎭™", url="https://t.me/+nQjZWOoEVpMxOWE1"),
-                        InlineKeyboardButton("ᴄɪɴᴇᴍᴀ ʀᴏᴄᴋᴇʀs🎭™", url="https://t.me/+cm1FYByZ5SgzYjc1")
+                        InlineKeyboardButton("Movie Updates 🎥", url="https://t.me/+cm1FYByZ5SgzYjc1")
+                     ],[
+                        InlineKeyboardButton("👉 OTT Releases 👈", url="https://t.me/+nQjZWOoEVpMxOWE1")
                     ],[
-                        InlineKeyboardButton("Join Main Channel ", url="https://t.me/+H6tgwzs43PxiN2U1")
+                        InlineKeyboardButton("🎞️ Theatre ReleaseS ✅ ", url="https://t.me/+nQjZWOoEVpMxOWE1")
                     ]
                 ]
             )
