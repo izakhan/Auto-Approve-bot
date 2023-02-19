@@ -60,9 +60,8 @@ async def op(_, m :Message):
             keyboard = InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Movie Updates 🎥", url="https://t.me/+cm1FYByZ5SgzYjc1"),
-                        InlineKeyboardButton("👉 OTT Releases 👈", url="https://t.me/+nQjZWOoEVpMxOWE1"),
-                        InlineKeyboardButton("🎞️ Theatre ReleaseS ✅", url="https://t.me/+nQjZWOoEVpMxOWE1")
+                        InlineKeyboardButton("𝗡𝗲𝘄 𝗖𝗶𝗻𝗲𝗺𝗮𝗦 ~ 𝗨𝗻𝗹𝗶𝗺𝗶𝘁𝗲𝗱🎭™", url="https://t.me/+nQjZWOoEVpMxOWE1"),
+                        InlineKeyboardButton("ᴄɪɴᴇᴍᴀ ʀᴏᴄᴋᴇʀs🎭™", url="https://t.me/+cm1FYByZ5SgzYjc1")
                     ],[
                         InlineKeyboardButton("Join Main Channel ", url="https://t.me/+H6tgwzs43PxiN2U1")
                     ]
@@ -106,9 +105,8 @@ async def chk(_, cb : CallbackQuery):
             keyboard = InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Movie Updates 🎥", url="https://t.me/+cm1FYByZ5SgzYjc1"),
-                        InlineKeyboardButton("👉 OTT Releases 👈", url="https://t.me/+nQjZWOoEVpMxOWE1"),
-                        InlineKeyboardButton("🎞️ Theatre ReleaseS ✅", url="https://t.me/+nQjZWOoEVpMxOWE1")
+                        InlineKeyboardButton("𝗡𝗲𝘄 𝗖𝗶𝗻𝗲𝗺𝗮𝗦 ~ 𝗨𝗻𝗹𝗶𝗺𝗶𝘁𝗲𝗱🎭™", url="https://t.me/+nQjZWOoEVpMxOWE1"),
+                        InlineKeyboardButton("ᴄɪɴᴇᴍᴀ ʀᴏᴄᴋᴇʀs🎭™", url="https://t.me/+cm1FYByZ5SgzYjc1")
                     ],[
                         InlineKeyboardButton("➕ Add me to your Chat ➕", url="https://t.me/autoaccept_Requests_Bot?startgroup")
                     ]
