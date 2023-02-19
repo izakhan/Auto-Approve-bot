@@ -69,14 +69,11 @@ async def op(_, m :Message):
                         InlineKeyboardButton("𝗡𝗲𝘄 𝗖𝗶𝗻𝗲𝗺𝗮𝗦 ~ 𝗨𝗻𝗹𝗶𝗺𝗶𝘁𝗲𝗱🎭™", url="https://t.me/+nQjZWOoEVpMxOWE1")
                     ],[
                         InlineKeyboardButton("ᴄɪɴᴇᴍᴀ ʀᴏᴄᴋᴇʀs🎭™", url="https://t.me/+cm1FYByZ5SgzYjc1")
-                    ],[
-                        InlineKeyboardButton("Join Main Channel ", url="https://t.me/+H6tgwzs43PxiN2U1")
                     ]
                 ]
             )
             add_user(m.from_user.id)
-            await m.reply_photo("https://telegra.ph/file/3434217344bac7583aaf4.jpg", caption="** Welcome To Auto Approve Bot, 
-Just make the bot admin in your channel**".format(m.from_user.mention, "https://t.me/sarbudeen786"), reply_markup=keyboard)
+            await m.reply_photo("https://telegra.ph/file/3434217344bac7583aaf4.jpg", caption="** Welcome To Auto Approve Bot,Just make the bot admin in your channel**".format(m.from_user.mention, "https://t.me/sarbudeen786"), reply_markup=keyboard)
     
         elif m.chat.type == enums.ChatType.GROUP or enums.ChatType.SUPERGROUP:
             keyboar = InlineKeyboardMarkup(
@@ -116,13 +113,11 @@ async def chk(_, cb : CallbackQuery):
                         InlineKeyboardButton("𝗡𝗲𝘄 𝗖𝗶𝗻𝗲𝗺𝗮𝗦 ~ 𝗨𝗻𝗹𝗶𝗺𝗶𝘁𝗲𝗱🎭™", url="https://t.me/+nQjZWOoEVpMxOWE1")
                      ],[
                         InlineKeyboardButton("ᴄɪɴᴇᴍᴀ ʀᴏᴄᴋᴇʀs🎭™", url="https://t.me/+cm1FYByZ5SgzYjc1")
-                    ],[
-                        InlineKeyboardButton("➕ Add me to your Chat ➕", url="https://t.me/autoaccept_Requests_Bot?startgroup")
                     ]
                 ]
             )
             add_user(cb.from_user.id)
-            await cb.message.edit("**🦊 Hello {}!\nI'm an auto approve    Bot.\nI can  users in Groups/Channels.Add me to your chat and promote me to admin with add members permission.\n\n__Powerd By : @Sarbudeen786**".format(cb.from_user.mention, "https://t.me/telegram/153"), reply_markup=keyboard, disable_web_page_preview=True)
+            await cb.message.edit("** Welcome To Auto Approve Bot,Just make the bot admin in your channel**".format(cb.from_user.mention, "https://t.me/telegram/153"), reply_markup=keyboard, disable_web_page_preview=True)
         print(cb.from_user.first_name +" Is started Your Bot!")
     except UserNotParticipant:
         await cb.answer("🙅‍♂️ You are not joined to channel join and try again. 🙅‍♂️")
