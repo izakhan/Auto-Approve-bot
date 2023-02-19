@@ -49,7 +49,7 @@ async def approve(_, m : Message):
                     ]
                 ]
             )
-        await app.send_video(kk.id,img, "**Hello {}!\nWelcome To {}\n\n__Powerd By : @Sarbudeen786**".format(m.from_user.mention, m.chat.title),reply_markup=keyboard)
+        await app.send_video(kk.id,img, "**Hello {}!\nWelcome To {}\n\nSend /start to know more.**".format(m.from_user.mention, m.chat.title),reply_markup=keyboard)
         add_user(kk.id)
     except errors.PeerIdInvalid as e:
         print("user isn't start bot(means group)")
@@ -73,7 +73,7 @@ async def op(_, m :Message):
                 ]
             )
             add_user(m.from_user.id)
-            await m.reply_photo("https://telegra.ph/file/3434217344bac7583aaf4.jpg", caption="** Welcome To Auto Approve Bot,Just make the bot admin in your channel**".format(m.from_user.mention, "https://t.me/sarbudeen786"), reply_markup=keyboard)
+            await m.reply_photo("https://telegra.ph/file/3434217344bac7583aaf4.jpg", caption="** Welcome To Auto Approve Bot,Just make the bot admin in your channel**".format(m.from_user.mention, ), reply_markup=keyboard)
     
         elif m.chat.type == enums.ChatType.GROUP or enums.ChatType.SUPERGROUP:
             keyboar = InlineKeyboardMarkup(
