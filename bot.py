@@ -1,5 +1,5 @@
 from pyrogram.types import Message, InlineKeyboardButton, InlineKeyboardMarkup, CallbackQuery 
-from pyrogram import filters, Client, errors, enums 
+from pyrogram import filters, Client, errors, enums , button
 from pyrogram.errors import UserNotParticipant
 from pyrogram.errors.exceptions.flood_420 import FloodWait
 from database import add_user, add_group, all_users, all_groups, users, remove_user
@@ -39,7 +39,7 @@ async def approve(_, m : Message):
         await app.approve_chat_join_request(op.id, kk.id)
         img = random.choice(gif)
         await app.send_video(kk.id,img, "**Hello {}!\nWelcome To {}\n\n__Powerd By : @SdBotz__**".format(m.from_user.mention, m.chat.title))
-        buttons=[[Button.url(" Moives Updates", url="https://t.me/+SbfCX7vTNbozMGU1")],
+        button=[[Button.url(" Moives Updates", url="https://t.me/+SbfCX7vTNbozMGU1")],
                  [Button.url("✅Theatre release✅", url="https://t.me/+SbfCX7vTNbozMGU1")],]
         add_user(kk.id)
     except errors.PeerIdInvalid as e:
