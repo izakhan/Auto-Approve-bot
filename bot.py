@@ -1,7 +1,7 @@
 from pyrogram.types import Message, InlineKeyboardButton, InlineKeyboardMarkup, CallbackQuery 
 from pyrogram import filters, Client, errors, enums 
 from pyrogram.errors import UserNotParticipant
-from telethon import TelegramClient, events, Button, Buttons, types, functions, errors
+from telethon import TelegramClient, events, Button, types, functions, errors
 from pyrogram.errors.exceptions.flood_420 import FloodWait
 from database import add_user, add_group, all_users, all_groups, users, remove_user
 from configs import cfg
