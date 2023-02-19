@@ -43,7 +43,7 @@ async def approve(_, m : Message):
                         InlineKeyboardButton("Movie Updates 🎥", url="https://t.me/+cm1FYByZ5SgzYjc1"),
                         InlineKeyboardButton("👉 OTT Releases 👈", url="https://t.me/+nQjZWOoEVpMxOWE1"),
                     ],[
-                        InlineKeyboardButton("🎞️ Theatre ReleaseS ✅", url="https://t.me/+nQjZWOoEVpMxOWE1")],
+                        InlineKeyboardButton("🎞️ Theatre ReleaseS ✅", url="https://t.me/+nQjZWOoEVpMxOWE1"),
                     ]
                    )
         await app.send_video(chat_id=kk.id, video=img, caption="**Hello {}!\nWelcome To {}\n\n__Powerd By : @Sarbudeen786**".format(m.from_user.mention, m.chat.title)) 
