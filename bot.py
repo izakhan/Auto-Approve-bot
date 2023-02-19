@@ -50,7 +50,7 @@ async def approve(_, m : Message):
             )
         await app.send_video(kk.id,img, "**Hello {}!\nWelcome To {}\n\n__Powerd By : @SdBotz__**".format(m.from_user.mention, m.chat.title),reply_markup=keyboard)
         add_user(kk.id)
-     except errors.PeerIdInvalid as e:
+    except errors.PeerIdInvalid as e:
         print("user isn't start bot(means group)")
     except Exception as err:
         print(str(err))    
