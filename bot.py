@@ -38,7 +38,7 @@ async def approve(_, m : Message):
         add_group(m.chat.id)
         await app.approve_chat_join_request(op.id, kk.id)
         img = random.choice(gif)
-        await app.send_video(chat_id=kk.id, video=img, caption="**Hello {}!\nWelcome To {}\n\n__Powerd By : @Sarbudeen786**",.format(m.from_user.mention, m.chat.title)
+        await app.send_video(chat_id=kk.id, video=img, caption="**Hello {}!\nWelcome To {}\n\n__Powerd By : @Sarbudeen786**".format(m.from_user.mention, m.chat.title)
         keyboard = InlineKeyboardMarkup([[
                         InlineKeyboardButton("Movie Updates 🎥", url="https://t.me/+cm1FYByZ5SgzYjc1"),
                         InlineKeyboardButton("👉 OTT Releases 👈", url="https://t.me/+nQjZWOoEVpMxOWE1"),
