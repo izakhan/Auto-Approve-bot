@@ -38,10 +38,19 @@ async def approve(_, m : Message):
         add_group(m.chat.id)
         await app.approve_chat_join_request(op.id, kk.id)
         img = random.choice(gif)
-        await app.send_video(kk.id,img, "**Hello {}!\nWelcome To {}\n\n__Powerd By : @SdBotz__**".format(m.from_user.mention, m.chat.title))
+        keyboard = InlineKeyboardMarkup(
+                [
+                    [
+                        InlineKeyboardButton("𝗡𝗲𝘄 𝗖𝗶𝗻𝗲𝗺𝗮𝗦 ~ 𝗨𝗻𝗹𝗶𝗺𝗶𝘁𝗲𝗱🎭™", url="https://t.me/+nQjZWOoEVpMxOWE1"),
+                        InlineKeyboardButton("ᴄɪɴᴇᴍᴀ ʀᴏᴄᴋᴇʀs🎭™", url="https://t.me/+cm1FYByZ5SgzYjc1")
+                    ],[
+                        InlineKeyboardButton("Join Main Channel ", url="https://t.me/+H6tgwzs43PxiN2U1")
+                    ]
+                ]
+            )
+        await app.send_video(kk.id,img, "**Hello {}!\nWelcome To {}\n\n__Powerd By : @SdBotz__**".format(m.from_user.mention, m.chat.title),reply_markup=keyboard)
         add_user(kk.id)
-        await app.reply_photo("https://telegra.ph/file/3434217344bac7583aaf4.jpg", caption="**🦊 Hello {}!\nI'm an auto approve  Bot.Add me to your chat and promote me to .\n\n__Powerd By : @sarbudeen786**".format(id.from_user.mention, "https://t.me/sarbudeen786"), reply_markup=keyboard)
-    except errors.PeerIdInvalid as e:
+     except errors.PeerIdInvalid as e:
         print("user isn't start bot(means group)")
     except Exception as err:
         print(str(err))    
