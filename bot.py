@@ -21,7 +21,7 @@ gif = [
     'https://telegra.ph/file/293cc10710e57530404f8.mp4',
     'https://telegra.ph/file/506898de518534ff68ba0.mp4',
     'https://telegra.ph/file/dae0156e5f48573f016da.mp4',
-    'https://telegra.ph/file/3e2871e714f435d173b9e.mp4',
+    'https://telegra.ph/file/3e2871e714f4m35d173b9e.mp4',
     'https://telegra.ph/file/714982b9fedfa3b4d8d2b.mp4',
     'https://telegra.ph/file/876edfcec678b64eac480.mp4',
     'https://telegra.ph/file/6b1ab5aec5fa81cf40005.mp4',
