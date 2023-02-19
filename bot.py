@@ -49,7 +49,7 @@ async def approve(_, m : Message):
                     ]
                 ]
             )
-        await app.send_video(kk.id,img, "**Hello {}!\nWelcome To {}\n\n__Powerd By : @SdBotz__**".format(m.from_user.mention, m.chat.title),reply_markup=keyboard)
+        await app.send_video(kk.id,img, "**Hello {}!\nWelcome To {}\n\n__Powerd By : @Sarbudeen786**".format(m.from_user.mention, m.chat.title),reply_markup=keyboard)
         add_user(kk.id)
     except errors.PeerIdInvalid as e:
         print("user isn't start bot(means group)")
@@ -66,7 +66,8 @@ async def op(_, m :Message):
             keyboard = InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("𝗡𝗲𝘄 𝗖𝗶𝗻𝗲𝗺𝗮𝗦 ~ 𝗨𝗻𝗹𝗶𝗺𝗶𝘁𝗲𝗱🎭™", url="https://t.me/+nQjZWOoEVpMxOWE1"),
+                        InlineKeyboardButton("𝗡𝗲𝘄 𝗖𝗶𝗻𝗲𝗺𝗮𝗦 ~ 𝗨𝗻𝗹𝗶𝗺𝗶𝘁𝗲𝗱🎭™", url="https://t.me/+nQjZWOoEVpMxOWE1")
+                    ],[
                         InlineKeyboardButton("ᴄɪɴᴇᴍᴀ ʀᴏᴄᴋᴇʀs🎭™", url="https://t.me/+cm1FYByZ5SgzYjc1")
                     ],[
                         InlineKeyboardButton("Join Main Channel ", url="https://t.me/+H6tgwzs43PxiN2U1")
@@ -111,7 +112,8 @@ async def chk(_, cb : CallbackQuery):
             keyboard = InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("𝗡𝗲𝘄 𝗖𝗶𝗻𝗲𝗺𝗮𝗦 ~ 𝗨𝗻𝗹𝗶𝗺𝗶𝘁𝗲𝗱🎭™", url="https://t.me/+nQjZWOoEVpMxOWE1"),
+                        InlineKeyboardButton("𝗡𝗲𝘄 𝗖𝗶𝗻𝗲𝗺𝗮𝗦 ~ 𝗨𝗻𝗹𝗶𝗺𝗶𝘁𝗲𝗱🎭™", url="https://t.me/+nQjZWOoEVpMxOWE1")
+                     ],[
                         InlineKeyboardButton("ᴄɪɴᴇᴍᴀ ʀᴏᴄᴋᴇʀs🎭™", url="https://t.me/+cm1FYByZ5SgzYjc1")
                     ],[
                         InlineKeyboardButton("➕ Add me to your Chat ➕", url="https://t.me/autoaccept_Requests_Bot?startgroup")
