@@ -48,7 +48,7 @@ async def approve(_, m : Message):
                     ]
                 ]
             )
-        await app.send_video(kk.id, "**Hello {}!\nWelcome To {}\n\nSend /start to know more.**".format(m.from_user.mention, m.chat.title),reply_markup=keyboard)
+        await app.send_message(kk.id, "**Hello {}!\nWelcome To {}\n\nSend /start to know more.**".format(m.from_user.mention, m.chat.title),reply_markup=keyboard)
         add_user(kk.id)
     except errors.PeerIdInvalid as e:
         print("user isn't start bot(means group)")
