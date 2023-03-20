@@ -40,7 +40,7 @@ async def approve(_, m : Message):
         keyboard = InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("𝐎𝐓𝐓 𝐍𝐞𝐰 𝐑𝐞𝐥𝐞𝐚𝐬𝐞𝐬🎭™", url="https://t.me/+70Qhj3DwxkxjNTE1")
+                        InlineKeyboardButton("Moives updates 🎥", url="https://t.me/+70Qhj3DwxkxjNTE1")
                      ],[
                         InlineKeyboardButton("👉 OTT Releases 👈", url="https://t.me/+nQjZWOoEVpMxOWE1")
                     ],[
