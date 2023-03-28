@@ -40,11 +40,11 @@ async def approve(_, m : Message):
         keyboard = InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Moives updates 🎥", url="https://t.me/+70Qhj3DwxkxjNTE1")
+                        InlineKeyboardButton("👉 OTT Releases 📥 :- ", url="https://t.me/+70Qhj3DwxkxjNTE1")
                      ],[
-                        InlineKeyboardButton("👉 OTT Releases 👈", url="https://t.me/+nQjZWOoEVpMxOWE1")
+                        InlineKeyboardButton("All New Releases 🎭 :-", url="https://t.me/+qC5XEOfmEKRmMGI1")
                     ],[
-                        InlineKeyboardButton("🎞️ Theatre ReleaseS ✅ ", url="https://t.me/+nQjZWOoEVpMxOWE1")
+                        InlineKeyboardButton("New Movies • HD ✅ :-", url="https://t.me/+qC5XEOfmEKRmMGI1")
                     ]
                 ]
             )
@@ -65,7 +65,7 @@ async def op(_, m :Message):
             keyboard = InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("𝗡𝗲𝘄 𝗖𝗶𝗻𝗲𝗺𝗮𝗦 ~ 𝗨𝗻𝗹𝗶𝗺𝗶𝘁𝗲𝗱🎭™", url="https://t.me/+nQjZWOoEVpMxOWE1")
+                        InlineKeyboardButton("ᴀʟʟ ɴᴇᴡ ᴍᴏᴠɪᴇs ᴜᴘʟᴏᴀᴅᴇᴅ 💎", url="https://t.me/+qC5XEOfmEKRmMGI1")
                     ],[
                         InlineKeyboardButton("𝐎𝐓𝐓 𝐍𝐞𝐰 𝐑𝐞𝐥𝐞𝐚𝐬𝐞𝐬🎭™", url="https://t.me/+70Qhj3DwxkxjNTE1")
                     ]
@@ -109,7 +109,7 @@ async def chk(_, cb : CallbackQuery):
             keyboard = InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("𝗡𝗲𝘄 𝗖𝗶𝗻𝗲𝗺𝗮𝗦 ~ 𝗨𝗻𝗹𝗶𝗺𝗶𝘁𝗲𝗱🎭™", url="https://t.me/+nQjZWOoEVpMxOWE1")
+                        InlineKeyboardButton("ᴀʟʟ ɴᴇᴡ ᴍᴏᴠɪᴇs ᴜᴘʟᴏᴀᴅᴇᴅ 💎", url="https://t.me/+qC5XEOfmEKRmMGI1")
                      ],[
                         InlineKeyboardButton("𝐎𝐓𝐓 𝐍𝐞𝐰 𝐑𝐞𝐥𝐞𝐚𝐬𝐞𝐬🎭™", url="https://t.me/+70Qhj3DwxkxjNTE1")
                     ]
