@@ -90,7 +90,7 @@ async def op(_, m :Message):
     except UserNotParticipant:
         key = InlineKeyboardMarkup(
             [[
-                        InlineKeyboardButton("Join Main Channel ", url="https://t.me/+YF2UE4b4fPU4YWM1")
+                        InlineKeyboardButton("Join Main Channel ", url="https://t.me/+vxtT73SaiMtjZTRl")
                     ], 
                 [
                     InlineKeyboardButton("🍀 Check Again 🍀", "chk")
