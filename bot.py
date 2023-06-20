@@ -42,9 +42,9 @@ async def approve(_, m : Message):
                     [
                         InlineKeyboardButton("👉 OTT Releases 📥 :- ", url="https://t.me/+70Qhj3DwxkxjNTE1")
                      ],[
-                        InlineKeyboardButton("All New Releases 🎭 :-", url="https://t.me/+qC5XEOfmEKRmMGI1")
+                        InlineKeyboardButton("All New Releases 🎭 :-", url="https://t.me/+HmLwG4K_uYNhMjk9")
                     ],[
-                        InlineKeyboardButton("New Movies • HD ✅ :-", url="https://t.me/+qC5XEOfmEKRmMGI1")
+                        InlineKeyboardButton("New Movies • HD ✅ :-", url="https://t.me/+HmLwG4K_uYNhMjk9")
                     ]
                 ]
             )
@@ -65,7 +65,7 @@ async def op(_, m :Message):
             keyboard = InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("ᴀʟʟ ɴᴇᴡ ᴍᴏᴠɪᴇs ᴜᴘʟᴏᴀᴅᴇᴅ 💎", url=""https://t.me/+HmLwG4K_uYNhMjk9)
+                        InlineKeyboardButton("ᴀʟʟ ɴᴇᴡ ᴍᴏᴠɪᴇs ᴜᴘʟᴏᴀᴅᴇᴅ 💎", url=""https://t.me/+HmLwG4K_uYNhMjk9")
                     ],[
                         InlineKeyboardButton("𝐎𝐓𝐓 𝐍𝐞𝐰 𝐑𝐞𝐥𝐞𝐚𝐬𝐞𝐬🎭™", url="https://t.me/+70Qhj3DwxkxjNTE1")
                     ]
