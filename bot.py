@@ -40,7 +40,7 @@ async def approve(_, m : Message):
         keyboard = InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("👉 OTT Releases 📥 :- ", url="https://t.me/+70Qhj3DwxkxjNTE1")
+                        InlineKeyboardButton("👉 OTT Releases 📥 :- ", url="https://t.me/+Wqtf0Nz1pFNjNzU1")
                      ],[
                         InlineKeyboardButton("All New Releases 🎭 :-", url="https://t.me/+VI5AHcnwbOQ1ODNl")
                     ],[
@@ -65,7 +65,7 @@ async def op(_, m :Message):
             keyboard = InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("ᴀʟʟ ɴᴇᴡ ᴍᴏᴠɪᴇs ᴜᴘʟᴏᴀᴅᴇᴅ 💎", url="https://t.me/+VI5AHcnwbOQ1ODNl")
+                        InlineKeyboardButton("ᴀʟʟ ɴᴇᴡ ᴍᴏᴠɪᴇs ᴜᴘʟᴏᴀᴅᴇᴅ 💎", url="https://t.me/+Wqtf0Nz1pFNjNzU1")
                     ],[
                         InlineKeyboardButton("𝐎𝐓𝐓 𝐍𝐞𝐰 𝐑𝐞𝐥𝐞𝐚𝐬𝐞𝐬🎭™", url="https://t.me/+70Qhj3DwxkxjNTE1")
                     ]
@@ -90,7 +90,7 @@ async def op(_, m :Message):
     except UserNotParticipant:
         key = InlineKeyboardMarkup(
             [[
-                        InlineKeyboardButton("Join Main Channel ", url="https://t.me/+vxtT73SaiMtjZTRl")
+                        InlineKeyboardButton("Join Main Channel ", url="https://t.me/+Wqtf0Nz1pFNjNzU1")
                     ], 
                 [
                     InlineKeyboardButton("🍀 Check Again 🍀", "chk")
@@ -109,7 +109,7 @@ async def chk(_, cb : CallbackQuery):
             keyboard = InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("ᴀʟʟ ɴᴇᴡ ᴍᴏᴠɪᴇs ᴜᴘʟᴏᴀᴅᴇᴅ 💎", url="https://t.me/+VI5AHcnwbOQ1ODNl")
+                        InlineKeyboardButton("ᴀʟʟ ɴᴇᴡ ᴍᴏᴠɪᴇs ᴜᴘʟᴏᴀᴅᴇᴅ 💎", url="https://t.me/+Wqtf0Nz1pFNjNzU1")
                      ],[
                         InlineKeyboardButton("𝐎𝐓𝐓 𝐍𝐞𝐰 𝐑𝐞𝐥𝐞𝐚𝐬𝐞𝐬🎭™", url="https://t.me/+70Qhj3DwxkxjNTE1")
                     ]
