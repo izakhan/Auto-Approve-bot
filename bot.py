@@ -65,9 +65,9 @@ async def op(_, m :Message):
             keyboard = InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("ᴀʟʟ ɴᴇᴡ ᴍᴏᴠɪᴇs ᴜᴘʟᴏᴀᴅᴇᴅ 💎", url="https://t.me/+Wqtf0Nz1pFNjNzU1")
+                        InlineKeyboardButton("ᴀʟʟ ɴᴇᴡ ᴍᴏᴠɪᴇs ᴜᴘʟᴏᴀᴅᴇᴅ 💎", url="https://t.me/+VI5AHcnwbOQ1ODNl")
                     ],[
-                        InlineKeyboardButton("𝐎𝐓𝐓 𝐍𝐞𝐰 𝐑𝐞𝐥𝐞𝐚𝐬𝐞𝐬🎭™", url="https://t.me/+70Qhj3DwxkxjNTE1")
+                        InlineKeyboardButton("𝐎𝐓𝐓 𝐍𝐞𝐰 𝐑𝐞𝐥𝐞𝐚𝐬𝐞𝐬🎭™", url="https://t.me/+Wqtf0Nz1pFNjNzU1")
                     ]
                 ]
             )
